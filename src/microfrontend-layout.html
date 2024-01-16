@@ -1,4 +1,4 @@
-<single-spa-router>
+<single-spa-router base="/" disableWarnings>
   <!--
 
     This is the single-spa Layout Definition for your microfrontends.
@@ -6,6 +6,8 @@
 
   -->
 
-  <application name="@udistrital/core-mf"></application>
-  
+  <application name="@udistrital/core-mf" props="environment"></application>
+  <route path="datos">
+    <application name="@udistrital/sga-datos-mf"></application>
+  </route>
 </single-spa-router>
