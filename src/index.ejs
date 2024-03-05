@@ -17,8 +17,9 @@
     This CSP allows any SSL-enabled host and for arbitrary eval(), but you should limit these directives further to increase your app's security.
     Learn more about CSP policies at https://content-security-policy.com/#directive
   -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';">
-  <meta name="importmap-type" content="systemjs-importmap" />
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';">
+    -->
+      <meta name="importmap-type" content="systemjs-importmap" />
   <!-- If you wish to turn off import-map-overrides for specific environments (prod), uncomment the line below -->
   <!-- More info at https://github.com/joeldenning/import-map-overrides/blob/master/docs/configuration.md#domain-list -->
   <!-- <meta name="import-map-overrides-domains" content="denylist:prod.example.com" /> -->
@@ -49,6 +50,8 @@
       "imports": {
         "@udistrital/root-config": "//localhost:4200/udistrital-root-config.js",
         "@udistrital/core-mf":"//localhost:4201/main.js",
+        "@udistrital/sga-datos-mf":"//localhost:4202/main.js",
+        "@udistrital/sga-administracion-mf":"//localhost:4211/main.js"
         "@udistrital/sga-espacios-academicos-mf":"//localhost:4208/main.js"
         "@udistrital/sga-datos-mf":"//localhost:4202/main.js",
         "@udistrital/sga-gestionar-periodo-mf":"//localhost:4205/main.js",
