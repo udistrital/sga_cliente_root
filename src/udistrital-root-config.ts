@@ -21,9 +21,7 @@ if (isProd) {
 }
 
 const data = {
-  props: {
-    environment: environment,
-  },
+  props: environment,
   loaders: {},
 };
 
