@@ -26,7 +26,6 @@ module.exports = (webpackConfigEnv, argv) => {
           orgName,
         },
         favicon: "./src/favicon.ico",
-        favicon: "./src/favicon.png",
       }),
       new DefinePlugin({
         isProd: webpackConfigEnv && webpackConfigEnv.isProd,
