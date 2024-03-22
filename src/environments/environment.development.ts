@@ -8,10 +8,10 @@ export const environment = {
   appMenu: "SGA",
   TOKEN: {
     AUTORIZATION_URL: "https://autenticacion.portaloas.udistrital.edu.co/oauth2/authorize",
-    CLIENTE_ID: "m6xGggH1_HF4PIpoczcDA6EFEYUa",
+    CLIENTE_ID: "1OaC8gIVEfG8WxjrB37saszNQ5ga",
     RESPONSE_TYPE: "id_token token",
     SCOPE: "openid email role documento",
-    REDIRECT_URL: "https://pruebassgamicroclientes.portaloas.udistrital.edu.co/",
+    REDIRECT_URL: "https://pruebassgamicroclientes.portaloas.udistrital.edu.co",
     SIGN_OUT_URL: "https://autenticacion.portaloas.udistrital.edu.co/oidc/logout",
     SIGN_OUT_REDIRECT_URL: "https://pruebassgamicroclientes.portaloas.udistrital.edu.co",
     AUTENTICACION_MID: "https://autenticacion.portaloas.udistrital.edu.co/apioas/autenticacion_mid/v1/token/userRol",
