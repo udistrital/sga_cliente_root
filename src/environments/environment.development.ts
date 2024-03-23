@@ -22,7 +22,7 @@ export const environment = {
     "@udistrital/sga-datos-mf": "//localhost:4202/main.js",
     "@udistrital/sga-administracion-mf": "//localhost:4211/main.js",
     "@udistrital/sga-espacios-academicos-mf": "//localhost:4208/main.js",
-    "@udistrital/sga-gestionar-periodo-mf": "https://sgagestionperiodo.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-gestionar-periodo-mf": "https://pruebassgagestionperiodo.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-derechos-pecuniarios-mf": "//localhost:4208/main.js",
     "@udistrital/sga-notas-mf":"//localhost:4213/main.js",
     "@udistrital/sga-gestion-horarios-mf":"//localhost:4214/main.js",
