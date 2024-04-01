@@ -22,17 +22,11 @@
     This CSP allows any SSL-enabled host and for arbitrary eval(), but you should limit these directives further to increase your app's security.
     Learn more about CSP policies at https://content-security-policy.com/#directive
   -->
-  <!-- //TODO: hay que revisar estas políticas *.portaloas.udistrital.edu.co -->
-  <meta http-equiv="Content-Security-Policy" 
-  content="
-      default-src 'self' https: localhost:* *.portaloas.udistrital.edu.co; 
-      script-src 'unsafe-inline' 'unsafe-eval' https: localhost:* *.portaloas.udistrital.edu.co; 
-      connect-src https: localhost:* ws://localhost:* *.portaloas.udistrital.edu.co; 
-      style-src 'unsafe-inline' https: *.portaloas.udistrital.edu.co; 
-      object-src 'none';
-  ">
-   
-      <meta name="importmap-type" content="systemjs-importmap" />
+  <!-- //TODO: hay que revisar estas políticas -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';">
+
+  <meta name="importmap-type" content="systemjs-importmap" />
   <!-- If you wish to turn off import-map-overrides for specific environments (prod), uncomment the line below -->
   <!-- More info at https://github.com/joeldenning/import-map-overrides/blob/master/docs/configuration.md#domain-list -->
   <!-- <meta name="import-map-overrides-domains" content="denylist:prod.example.com" /> -->
@@ -60,25 +54,11 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-      <% if (isProd) { %>
-        <% const { environment } = require('./environments/environment.production.ts'); %>
-        <% const parcelsKeys = Object.keys(environment.parcels); %>
+        <% const { parcels2 } = require('./parcels.ts'); %>
+        <% const parcelsKeys = Object.keys(parcels2); %>
         <% for (let i = 0; i < parcelsKeys.length; i++) { %>
-          "<%= parcelsKeys[i] %>": "<%= environment.parcels[parcelsKeys[i]] %>"<%= i < parcelsKeys.length - 1 ? ',' : '' %>
+          "<%= parcelsKeys[i] %>": "<%= parcels2[parcelsKeys[i]].import %>"<%= i < parcelsKeys.length - 1 ? ',' : '' %>
         <% } %>
-      <% } else if (isDev) {%>
-        <% const { environment } = require('./environments/environment.development.ts'); %>
-        <% const parcelsKeys = Object.keys(environment.parcels); %>
-        <% for (let i = 0; i < parcelsKeys.length; i++) { %>
-          "<%= parcelsKeys[i] %>": "<%= environment.parcels[parcelsKeys[i]] %>"<%= i < parcelsKeys.length - 1 ? ',' : '' %>
-        <% } %>
-      <% } else {%>
-        <% const { environment } = require('./environments/environment.ts'); %>
-        <% const parcelsKeys = Object.keys(environment.parcels); %>
-        <% for (let i = 0; i < parcelsKeys.length; i++) { %>
-          "<%= parcelsKeys[i] %>": "<%= environment.parcels[parcelsKeys[i]] %>"<%= i < parcelsKeys.length - 1 ? ',' : '' %>
-        <% } %>
-      <% } %>
       }
     }
   </script>
@@ -99,6 +79,7 @@
   <% } %>
 
 </head>
+
 <body>
   <noscript>
     You need to enable JavaScript to run this app.
@@ -106,6 +87,26 @@
   <script>
     System.import('@udistrital/root-config');
   </script>
+  <template id="single-spa-layout">
+    <single-spa-router base="/" disableWarnings>
+      <!--
+    
+        This is the single-spa Layout Definition for your microfrontends.
+        See https://single-spa.js.org/docs/layout-definition/ for more information.
+    
+      -->
+
+      <application name="@udistrital/core-mf" props="environment"></application>
+
+      <% for (let i = 0; i < parcelsKeys.length; i++) { %>
+        <% if (parcels2[parcelsKeys[i]].path) { %>
+          <route path="<%= parcels2[parcelsKeys[i]].path %>">
+            <application name="<%= parcelsKeys[i] %>"></application>
+          </route>
+        <% } %>
+      <% } %>
+    </single-spa-router>
+  </template>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
 </html>
