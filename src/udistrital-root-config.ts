@@ -5,6 +5,8 @@ import {
   constructLayoutEngine,
 } from "single-spa-layout";
 import microfrontendLayout from "./microfrontend-layout.html";
+// importacion de estilos, gerarquia mas alta layout
+import "./assets/styles/layout.css"
 
 let environment;
 
