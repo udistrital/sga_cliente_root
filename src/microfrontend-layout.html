@@ -5,29 +5,31 @@
     See https://single-spa.js.org/docs/layout-definition/ for more information.
 
   -->
-
-  <application name="@udistrital/core-mf" props="environment"></application>
-  
-  <route path="datos">
-    <application name="@udistrital/sga-datos-mf"></application>
-  </route>
-  <route path="administracion">
-    <application name="@udistrital/sga-administracion-mf"></application>
-  </route>
-  <route path="espacios-academicos">
-    <application name="@udistrital/sga-espacios-academicos-mf"></application>
+  <main id="container">
+    <route path="espacios-academicos">
+      <application name="@udistrital/sga-espacios-academicos-mf"></application>
     </route>
-  <route path="periodo">
-    <application name="@udistrital/sga-gestionar-periodo-mf"></application>
-  </route>
-  <route path="derechos-pecuniarios">
-    <application name="@udistrital/sga-derechos-pecuniarios-mf"></application>
-  </route>
-  <route path="notas">
-    <application name="@udistrital/sga-notas-mf"></application>
-  </route>
-  <route path="horarios">
-    <application name="@udistrital/sga-gestion-horarios-mf"></application>
-  </route>
-  
+    <route path="datos">
+      <application name="@udistrital/sga-datos-mf"></application>
+    </route>
+    <route path="administracion">
+      <application name="@udistrital/sga-administracion-mf"></application>
+    </route>
+    <route path="periodo">
+      <application name="@udistrital/sga-gestionar-periodo-mf"></application>
+    </route>
+    <route path="derechos-pecuniarios">
+      <application name="@udistrital/sga-derechos-pecuniarios-mf"></application>
+    </route>
+    <route path="notas">
+      <application name="@udistrital/sga-notas-mf"></application>
+    </route>
+    <route path="horarios">
+      <application name="@udistrital/sga-gestion-horarios-mf"></application>
+    </route>
+  </main>
+
+  <div id="core">
+    <application name="@udistrital/core-mf" props="environment"></application>
+  </div>
 </single-spa-router>
