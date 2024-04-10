@@ -26,5 +26,6 @@ export const environment = {
     "@udistrital/sga-derechos-pecuniarios-mf": "//localhost:4208/main.js",
     "@udistrital/sga-notas-mf":"//localhost:4213/main.js",
     "@udistrital/sga-gestion-horarios-mf":"//localhost:4214/main.js",
+    "@udistrital/calendario-academico-mf":"https://pruebassgacalendarioacademico.portaloas.udistrital.edu.co"
   }
 };
