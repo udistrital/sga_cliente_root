@@ -4,12 +4,11 @@ import {
   constructRoutes,
   constructLayoutEngine,
 } from "single-spa-layout";
-import microfrontendLayout from "./microfrontend-layout.html";
+const microfrontendLayout = document.getElementById('single-spa-layout')
+let environment: any;
 
-let environment;
-
-declare var isProd : boolean | undefined;
-declare var isDev : boolean | undefined;
+declare var isProd: boolean | undefined;
+declare var isDev: boolean | undefined;
 //declare var isLocal : boolean | undefined;
 
 if (isProd) {
@@ -19,7 +18,6 @@ if (isProd) {
 } else {
   environment = require("./environments/environment");
 }
-
 const data = {
   props: environment,
   loaders: {},
