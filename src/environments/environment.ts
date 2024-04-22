@@ -26,5 +26,8 @@ export const environment = {
     "@udistrital/sga-derechos-pecuniarios-mf": "//localhost:4208/main.js",
     "@udistrital/sga-notas-mf": "//localhost:4213/main.js",
     "@udistrital/sga-gestion-horarios-mf": "//localhost:4214/main.js",
+    "@udistrital/sga-calendarioacademico-mf":"//localhost:4203/main.js"
   }
+
+  
 };
