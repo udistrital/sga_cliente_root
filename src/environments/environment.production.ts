@@ -19,12 +19,18 @@ export const environment = {
   parcels: {
     "@udistrital/root-config": "https://sgamicroclientes.portaloas.udistrital.edu.co/udistrital-root-config.js",
     "@udistrital/core-mf": "https://coreclientes.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/sga-datos-mf": "//localhost:4202/main.js",
-    "@udistrital/sga-administracion-mf": "//localhost:4211/main.js",
-    "@udistrital/sga-espacios-academicos-mf": "//localhost:4208/main.js",
+    "@udistrital/sga-datos-mf": "https://sgadatos.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-administracion-mf": "https://sgaadministracion.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-espacios-academicos-mf": "https://sgaespaciosacademicos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-gestionar-periodo-mf": "https://sgagestionperiodo.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/sga-derechos-pecuniarios-mf": "//localhost:4208/main.js",
-    "@udistrital/sga-notas-mf":"//localhost:4213/main.js",
-    "@udistrital/sga-gestion-horarios-mf":"//localhost:4214/main.js",
+    "@udistrital/sga-derechos-pecuniarios-mf": "https://sgaderechospecuniarios.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-notas-mf":"https://sganotas.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-gestion-horarios-mf":"https://sgagestionhorario.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-plan-estudios-mf": "https://sgaplanestudios.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-admisiones-mf": "https://sgaadmisiones.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-calendarioacademico-mf": "https://sgacalendarioacademico.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-practicas-academicas-mf": "https://sgapracticasacademicas.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-inscripcion-mf": "https://sgainscripcion.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-proyecto-curricular-mf": "https://sgaproyectocurricular.portaloas.udistrital.edu.co/main.js",
   }
-};
+};  
