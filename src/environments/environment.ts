@@ -32,6 +32,8 @@ export const environment = {
     "@udistrital/sga-practicas-academicas-mf": "//localhost:4210/main.js",
     "@udistrital/sga-inscripcion-mf": "//localhost:4209/main.js",
     "@udistrital/sga-proyecto-curricular-mf": "//localhost:4204/main.js",
+    "@udistrital/sga-tirilla-noticias-mf":"//localhost:4206/main.js",
+    "@udistrital/sga-plan-docente-mf":"//localhost:4216/main.js",
   }
 
   

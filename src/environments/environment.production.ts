@@ -32,5 +32,7 @@ export const environment = {
     "@udistrital/sga-practicas-academicas-mf": "https://sgapracticasacademicas.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-inscripcion-mf": "https://sgainscripcion.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-proyecto-curricular-mf": "https://sgaproyectocurricular.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-tirilla-noticias-mf":"",
+    "@udistrital/sga-plan-docente-mf":"https://sgaplandocente.portaloas.udistrital.edu.co/main.js",
   }
 };  
