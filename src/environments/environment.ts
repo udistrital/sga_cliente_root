@@ -33,4 +33,6 @@ export const environment = {
     "@udistrital/sga-inscripcion-mf": "//localhost:4209/main.js",
     "@udistrital/sga-proyecto-curricular-mf": "//localhost:4204/main.js",
   }
+
+  
 };

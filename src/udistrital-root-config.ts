@@ -10,8 +10,8 @@ import "./assets/styles/layout.css"
 
 let environment;
 
-declare var isProd : boolean | undefined;
-declare var isDev : boolean | undefined;
+declare var isProd: boolean | undefined;
+declare var isDev: boolean | undefined;
 //declare var isLocal : boolean | undefined;
 
 if (isProd) {
@@ -21,7 +21,6 @@ if (isProd) {
 } else {
   environment = require("./environments/environment");
 }
-
 const data = {
   props: environment,
   loaders: {},
