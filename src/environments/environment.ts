@@ -22,11 +22,18 @@ export const environment = {
     "@udistrital/sga-datos-mf": "//localhost:4202/main.js",
     "@udistrital/sga-administracion-mf": "//localhost:4211/main.js",
     "@udistrital/sga-espacios-academicos-mf": "//localhost:4208/main.js",
-    "@udistrital/sga-gestionar-periodo-mf": "https://pruebassgagestionperiodo.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-gestionar-periodo-mf": "//localhost:4205/main.js",
     "@udistrital/sga-derechos-pecuniarios-mf": "//localhost:4208/main.js",
     "@udistrital/sga-notas-mf": "//localhost:4213/main.js",
     "@udistrital/sga-gestion-horarios-mf": "//localhost:4214/main.js",
-    "@udistrital/sga-calendarioacademico-mf":"//localhost:4203/main.js"
+    "@udistrital/sga-plan-estudios-mf": "//localhost:4215/main.js",
+    "@udistrital/sga-admisiones-mf": "//localhost:4207/main.js",
+    "@udistrital/sga-calendarioacademico-mf": "//localhost:4203/main.js",
+    "@udistrital/sga-practicas-academicas-mf": "//localhost:4210/main.js",
+    "@udistrital/sga-inscripcion-mf": "//localhost:4209/main.js",
+    "@udistrital/sga-proyecto-curricular-mf": "//localhost:4204/main.js",
+    "@udistrital/sga-tirilla-noticias-mf":"//localhost:4206/main.js",
+    "@udistrital/sga-plan-docente-mf":"//localhost:4216/main.js",
   }
 
   
