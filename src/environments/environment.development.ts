@@ -19,13 +19,20 @@ export const environment = {
   parcels: {
     "@udistrital/root-config": "https://pruebassgamicroclientes.portaloas.udistrital.edu.co/udistrital-root-config.js",
     "@udistrital/core-mf": "https://pruebascoreclientes.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/sga-datos-mf": "//localhost:4202/main.js",
-    "@udistrital/sga-administracion-mf": "//localhost:4211/main.js",
-    "@udistrital/sga-espacios-academicos-mf": "//localhost:4208/main.js",
+    "@udistrital/sga-datos-mf": "https://pruebassgadatos.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-administracion-mf": "https://pruebassgaadministracion.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-espacios-academicos-mf": "https://pruebassgaespaciosacademicos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-gestionar-periodo-mf": "https://pruebassgagestionperiodo.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/sga-derechos-pecuniarios-mf": "//localhost:4208/main.js",
-    "@udistrital/sga-notas-mf":"//localhost:4213/main.js",
-    "@udistrital/sga-gestion-horarios-mf":"//localhost:4214/main.js",
-    "@udistrital/sga-calendarioacademico-mf":"//localhost:4203/main.js"
+    "@udistrital/sga-derechos-pecuniarios-mf": "https://pruebassgaderechospecuniarios.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-notas-mf":"https://pruebassganotas.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-gestion-horarios-mf":"https://pruebassgagestionhorario.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-plan-estudios-mf": "https://pruebassgaplanestudios.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-admisiones-mf": "https://pruebassgaadmisiones.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-calendarioacademico-mf": "https://pruebassgacalendarioacademico.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-practicas-academicas-mf": "https://pruebassgapracticasacademicas.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-inscripcion-mf": "https://pruebassgainscripcion.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-proyecto-curricular-mf": "https://pruebassgaproyectocurricular.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-tirilla-noticias-mf":"",
+    "@udistrital/sga-plan-docente-mf":"https://pruebassgaplandocente.portaloas.udistrital.edu.co/main.js",
   }
 };
