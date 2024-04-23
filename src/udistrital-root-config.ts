@@ -4,8 +4,11 @@ import {
   constructRoutes,
   constructLayoutEngine,
 } from "single-spa-layout";
-const microfrontendLayout = document.getElementById('single-spa-layout')
-let environment: any;
+import microfrontendLayout from "./microfrontend-layout.html";
+// importacion de estilos, gerarquia mas alta layout
+import "./assets/styles/layout.css"
+
+let environment;
 
 declare var isProd: boolean | undefined;
 declare var isDev: boolean | undefined;
