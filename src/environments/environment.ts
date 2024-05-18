@@ -5,7 +5,7 @@ export const environment = {
   notificaciones: false,
   menuApps: false,
   appname: "sga",
-  appMenu: "SGA",
+  appMenu: "SGA_MF",
   TOKEN: {
     AUTORIZATION_URL: "https://autenticacion.portaloas.udistrital.edu.co/oauth2/authorize",
     CLIENTE_ID: "e36v1MPQk2jbz9KM4SmKhk8Cyw0a",
@@ -21,7 +21,7 @@ export const environment = {
     "@udistrital/core-mf": "//localhost:4201/main.js",
     "@udistrital/sga-datos-mf": "//localhost:4202/main.js",
     "@udistrital/sga-administracion-mf": "//localhost:4211/main.js",
-    "@udistrital/sga-espacios-academicos-mf": "//localhost:4208/main.js",
+    "@udistrital/sga-espacios-academicos-mf": "//localhost:4212/main.js",
     "@udistrital/sga-gestionar-periodo-mf": "//localhost:4205/main.js",
     "@udistrital/sga-derechos-pecuniarios-mf": "//localhost:4208/main.js",
     "@udistrital/sga-notas-mf": "//localhost:4213/main.js",

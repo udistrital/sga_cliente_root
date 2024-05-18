@@ -5,7 +5,7 @@ export const environment = {
   notificaciones: false,
   menuApps: false,
   appname: "sga",
-  appMenu: "SGA",
+  appMenu: "SGA_MF",
   TOKEN: {
     AUTORIZATION_URL: "https://autenticacion.portaloas.udistrital.edu.co/oauth2/authorize",
     CLIENTE_ID: "Mg40MfT62GA_vcPMIJurpX3pzx4a",
