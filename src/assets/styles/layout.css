@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -19,7 +13,7 @@ body {
 
 #container {
   position: relative;
-  padding: 93px  2rem 2rem 2rem;
+  padding: 130px  2rem 2rem 2rem;
   flex: 1;
   margin-left: 0px;
   transition: ease-in-out 400ms;

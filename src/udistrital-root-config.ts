@@ -5,14 +5,12 @@ import {
   constructLayoutEngine,
 } from "single-spa-layout";
 import microfrontendLayout from "./microfrontend-layout.html";
-// importacion de estilos, gerarquia mas alta layout
-import "./assets/styles/layout.css"
+import "./assets/styles/index.css";
 
 let environment;
 
 declare var isProd: boolean | undefined;
 declare var isDev: boolean | undefined;
-//declare var isLocal : boolean | undefined;
 
 if (isProd) {
   environment = require("./environments/environment.production");
@@ -21,6 +19,7 @@ if (isProd) {
 } else {
   environment = require("./environments/environment");
 }
+
 const data = {
   props: environment,
   loaders: {},
