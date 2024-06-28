@@ -2,6 +2,8 @@ const { merge } = require("webpack-merge");
 const singleSpaDefaults = require("webpack-config-single-spa-ts");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { DefinePlugin } = require("webpack");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+const path = require("path");
 
 module.exports = (webpackConfigEnv, argv) => {
   const orgName = "udistrital";
@@ -32,6 +34,19 @@ module.exports = (webpackConfigEnv, argv) => {
         isDev: webpackConfigEnv && webpackConfigEnv.isDev,
         isLocal: webpackConfigEnv && webpackConfigEnv.isLocal,
       }),
+      new CopyWebpackPlugin({
+        patterns: [
+          { from: 'src/assets/i18n', to: 'assets/i18n' }
+        ]
+      })
     ],
+    devServer: {
+      static: {
+        directory: path.join(__dirname, 'dist'),
+      },
+      compress: true,
+      port: 4200,
+      historyApiFallback: true,
+    }
   });
 };
