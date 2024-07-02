@@ -61,4 +61,8 @@ export const parcels2 = {
     import: "//localhost:4215/main.js",
     path: "plan-estudio",
   },
+  "@udistrital/sga-preinscripciones-mf": {
+    import: "//localhost:4217/main.js",
+    path: "preinscripciones",
+  },
 };
