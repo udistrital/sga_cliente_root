@@ -65,4 +65,8 @@ export const parcels2 = {
     import: "//localhost:4217/main.js",
     path: "preinscripciones",
   },
+  "@udistrital/sga-evaluacion-docente-mf": {
+    import: "//localhost:4218/main.js",
+    path: "evaluacion-docente",
+  }
 };
