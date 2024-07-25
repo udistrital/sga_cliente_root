@@ -34,5 +34,6 @@ export const environment = {
     "@udistrital/sga-proyecto-curricular-mf": "https://pruebassgaproyectocurricular.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-tirilla-noticias-mf":"",
     "@udistrital/sga-plan-docente-mf":"https://pruebassgaplandocente.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sga-preinscripciones-mf":""
   }
 };
