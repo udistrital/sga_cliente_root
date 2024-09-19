@@ -35,6 +35,8 @@ export const environment = {
     "@udistrital/sga-tirilla-noticias-mf":"",
     "@udistrital/sga-plan-docente-mf":"https://pruebassgaplandocente.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-preinscripciones-mf":"",
-    "@udistrital/sga-evaluacion-docente-mf":"//localhost:4218/main.js"
+    "@udistrital/sga-evaluacion-docente-mf":"//localhost:4218/main.js",
+    "@udistrital/formularios-dinamicos-mf":"https://pruebasformulariosdinamicos.portaloas.udistrital.edu.co/main.js"
+
   }
 };
