@@ -81,6 +81,7 @@
     "horarios-grupos": "Horarios por grupos",
     "gestion-horario": "Gestión de horario",
     "crud_enfasis":"Crear énfasis",
-    "list_enfasis":"Listar énfasis"
+    "list_enfasis":"Listar énfasis",
+    "formularios_dinamicos": "Formularios dinámicos"
   }
   
