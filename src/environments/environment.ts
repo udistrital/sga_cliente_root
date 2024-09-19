@@ -35,7 +35,8 @@ export const environment = {
     "@udistrital/sga-tirilla-noticias-mf":"//localhost:4206/main.js",
     "@udistrital/sga-plan-docente-mf":"//localhost:4216/main.js",
     "@udistrital/sga-preinscripciones-mf":"//localhost:4217/main.js",
-    "@udistrital/sga-evaluacion-docente-mf":"//localhost:4218/main.js"
+    "@udistrital/sga-evaluacion-docente-mf":"//localhost:4218/main.js",
+    "@udistrital/formularios-dinamicos-mf":"//localhost:4220/main.js"
   }
 
   
