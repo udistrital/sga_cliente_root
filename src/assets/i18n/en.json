@@ -81,6 +81,13 @@
     "gestion-horario": "Schedule Management",
     "crud_enfasis": "Create emphasis",
     "list_enfasis": "Emphasis List",
-    "formularios_dinamicos": "Dinamic forms"
+    "formularios_dinamicos": "Dinamic forms",
+    "evaluacion_docente": "Teacher Evaluation",
+    "definicion_formularios": "Define forms",
+    "asignacion_fechas": "Assign dates",
+    "definir_escalas": "Define scales",
+    "evaluaciones": "Evaluations",
+    "metricas": "Metrics",
+    "resultados": "Results"
   }
   

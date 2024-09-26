@@ -82,6 +82,13 @@
     "gestion-horario": "Gestión de horario",
     "crud_enfasis":"Crear énfasis",
     "list_enfasis":"Listar énfasis",
-    "formularios_dinamicos": "Formularios dinámicos"
+    "formularios_dinamicos": "Formularios dinámicos",
+    "evaluacion_docente": "Evaluación Docente",
+    "definicion_formularios": "Definir formularios",
+    "asignacion_fechas": "Asignar Fechas",
+    "definir_escalas": "Definir escalas",
+    "evaluaciones": "Evaluaciones",
+    "metricas": "Metricas",
+    "resultados": "Resultados"
   }
   
