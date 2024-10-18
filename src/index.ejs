@@ -26,10 +26,10 @@
   <meta http-equiv="Content-Security-Policy" 
   content="
       default-src 'self' https: localhost:* *.portaloas.udistrital.edu.co; 
-      script-src 'unsafe-inline' 'unsafe-eval' https: localhost:* *.portaloas.udistrital.edu.co; 
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' https: localhost:* *.portaloas.udistrital.edu.co; 
       connect-src 'self' https: localhost:* ws://localhost:* *.portaloas.udistrital.edu.co data: blob:;
-      style-src 'unsafe-inline' https: *.portaloas.udistrital.edu.co; 
-      img-src 'self' https: data:; 
+      style-src 'self' 'unsafe-inline' https: *.portaloas.udistrital.edu.co; 
+      img-src 'self' https: data: blob:; 
       object-src 'self' https: *.portaloas.udistrital.edu.co blob:;
       frame-src 'self' https: localhost:* *.portaloas.udistrital.edu.co blob:;
   ">
