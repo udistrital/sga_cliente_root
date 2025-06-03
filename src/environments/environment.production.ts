@@ -36,7 +36,7 @@ export const environment = {
     "@udistrital/sga-plan-docente-mf":"https://sgaplandocente.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-preinscripciones-mf":"",
     "@udistrital/sga-evaluacion-docente-mf":"https://sgaevaluaciondocente.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/formularios-dinamicos-mf":"https://formulariosdinamicos.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/paz-y-salvos-mf": "https://pazysalvos.portaloas.udistrital.edu.co/main.js"
+    "@udistrital/formularios-dinamicos-mf":"https://formulariosdinamicos.portaloas.udistrital.edu.co/main.js"
+
   }
 };  
