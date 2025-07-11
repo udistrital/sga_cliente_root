@@ -37,7 +37,7 @@ export const environment = {
     "@udistrital/sga-preinscripciones-mf":"",
     "@udistrital/sga-evaluacion-docente-mf":"https://pruebassgaevaluaciondocente.portaloas.udistrital.edu.co/main.js",
     "@udistrital/formularios-dinamicos-mf":"https://pruebasformulariosdinamicos.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/sga-paz-y-salvos-mf": "https://pruebaspazysalvos.portaloas.udistrital.edu.co/main.js"
+    "@udistrital/sga-paz-y-salvos-mf": "https://pruebassgapazysalvos.portaloas.udistrital.edu.co/main.js"
 
   }
 };
