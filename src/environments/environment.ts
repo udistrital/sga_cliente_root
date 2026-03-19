@@ -38,6 +38,7 @@ export const environment = {
     "@udistrital/sga-evaluacion-docente-mf":"//localhost:4218/main.js",
     "@udistrital/formularios-dinamicos-mf":"//localhost:4220/main.js",
     "@udistrital/solicitudes-comisiones-estudio-mf":"//localhost:4224/main.js",
+    "@udistrital/sga-paz-y-salvos-mf": "//localhost:4221/main.js",
     "@udistrital/solicitudes-sabaticos-mf":"//localhost:4219/main.js"
   }
 };
