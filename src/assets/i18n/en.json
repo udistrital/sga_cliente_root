@@ -138,7 +138,9 @@
         "guardar": "Save",
         "vacio": "Please fill in all required fields",
         "aceptar": "Accept",
-        "cargar": "Load"
+        "cargar": "Load",
+        "atencion": "Atention",
+        "operacion_exitosa": "Succeful Operation"
       },
       "ERROR": {
         "sin_puntos_comas": "Periods and commas are not allowed in this field",
