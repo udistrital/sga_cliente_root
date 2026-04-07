@@ -139,7 +139,9 @@
         "vacio": "Por favor complete todos los campos obligatorios",
         "aceptar": "Aceptar",
         "cargar": "Cargar",
-        "guardar": "Guardar"
+        "guardar": "Guardar",
+        "atencion": "Atención",
+        "operacion_exitosa": "Operacion Exitosa"
       },
       "ERROR": {
         "sin_puntos_comas": "No se permiten puntos ni comas en este campo",
