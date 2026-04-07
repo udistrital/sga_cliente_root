@@ -24,7 +24,7 @@
     "admision": "Admisión",
     "administrar_criterios": "Administrar criterios de admisión",
     "criterios": "Criterios de admisión",
-    "actualizacion_estado": "Actualización de estado",
+    "asignacion_cupos": "Asignación de cupos por proyecto",
     "evaluacion_documentos": "Evaluación de documentos",
     "evaluacion_aspirantes": "Evaluación de aspirantes",
     "listado_aspirante": "Listado de aspirantes",
@@ -89,6 +89,74 @@
     "definir_escalas": "Definir escalas",
     "evaluaciones": "Evaluaciones",
     "metricas": "Metricas",
-    "resultados": "Resultados"
+    "resultados": "Resultados",
+    "paz_y_salvos": "Paz y Salvos",
+    "semaforo": "Semaforo",
+    "sabaticos": "Sabáticos",
+    "solicitudes_sabaticos": "Solicitudes de sabáticos",
+
+    "formulario_pagador" : {
+      "pagador": {
+        "formulario_pagador": "Formulario de pagador",
+        "seguro_pagador": "¿Está seguro de que desea guardar los datos del pagador?",
+        "nomenclatura_dian": "Error al cargar las nomenclaturas DIAN",
+        "error_multiples_registros": "Se encontraron múltiples registros activos de pagador"
+      },
+      "recibo_pago": {
+        "no_hay_cambios": "No hay cambios para guardar",
+        "pagador_actualizado": "Pagador actualizado correctamente",
+        "pagador_guardado": "Pagador guardado correctamente"
+      },
+      "GLOBAL": {
+        "campos_obligatorios": "Campos marcados con * son obligatorios",
+        "falta_campo": "Este campo es obligatorio",
+        "naturaleza": "Naturaleza",
+        "tipo_documento": "Tipo de documento",
+        "numero_documento": "Número de documento",
+        "primer_apellido": "Primer apellido",
+        "segundo_apellido": "Segundo apellido",
+        "primer_nombre": "Primer nombre",
+        "segundo_nombre": "Segundo nombre",
+        "digito_verificacion": "Dígito de verificación",
+        "numero_fuera_rango": "El número está fuera del rango permitido",
+        "digito_verificacion_incorrecto": "El dígito de verificación es incorrecto",
+        "razon_social": "Razón social",
+        "tamano_superado_razon": "La razón social excede el máximo de 100 caracteres",
+        "editar_direccion": "Editar dirección",
+        "tipo_via": "Tipo de vía",
+        "numero": "Número",
+        "numero_secundario": "Número secundario",
+        "complemento": "Complemento",
+        "interior_1": "Interior 1",
+        "interior_2": "Interior 2",
+        "direccion_completa": "Dirección completa",
+        "direccion": "Dirección",
+        "telefono": "Teléfono",
+        "correo": "Correo",
+        "confirmo_informacion": "Confirmo que la información suministrada es correcta",
+        "cancelar": "Cancelar",
+        "continuar": "Continuar",
+        "vacio": "Por favor complete todos los campos obligatorios",
+        "aceptar": "Aceptar",
+        "cargar": "Cargar",
+        "guardar": "Guardar",
+        "atencion": "Atención",
+        "operacion_exitosa": "Operacion Exitosa"
+      },
+      "ERROR": {
+        "sin_puntos_comas": "No se permiten puntos ni comas en este campo",
+        "inactivar_registro": "Error al inactivar el registro existente",
+        "actualizar_pagador": "Error al actualizar los datos del pagador",
+        "guardar_pagador": "Error al guardar los datos del pagador",
+        "general": "Error en la operación",
+        "cargar_datos": "Error al cargar los datos",
+        "procesar_direccion": "Error al procesar la dirección",
+        "400": "Solicitud inválida",
+        "401": "No autorizado",
+        "403": "Acceso prohibido",
+        "404": "No encontrado",
+        "500": "Error interno del servidor"
+      }
+    }
   }
   
