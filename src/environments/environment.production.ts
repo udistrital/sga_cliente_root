@@ -11,13 +11,13 @@ export const environment = {
     CLIENTE_ID: "RCNPr2bwv7JglsddAHe_zjLNblsa",
     RESPONSE_TYPE: "id_token token",
     SCOPE: "openid email role documento",
-    REDIRECT_URL: "https://sgamicroclientes.portaloas.udistrital.edu.co",
+    REDIRECT_URL: "https://sga.portaloas.udistrital.edu.co",
     SIGN_OUT_URL: "https://autenticacion.portaloas.udistrital.edu.co/oidc/logout",
-    SIGN_OUT_REDIRECT_URL: "https://sgamicroclientes.portaloas.udistrital.edu.co",
+    SIGN_OUT_REDIRECT_URL: "https://sga.portaloas.udistrital.edu.co",
     AUTENTICACION_MID: "https://autenticacion.portaloas.udistrital.edu.co/apioas/autenticacion_mid/v1/token/userRol",
   },
   parcels: {
-    "@udistrital/root-config": "https://sgamicroclientes.portaloas.udistrital.edu.co/udistrital-root-config.js",
+    "@udistrital/root-config": "https://sga.portaloas.udistrital.edu.co/udistrital-root-config.js",
     "@udistrital/core-mf": "https://coreclientes.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-datos-mf": "https://sgadatos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-administracion-mf": "https://sgaadministracion.portaloas.udistrital.edu.co/main.js",
@@ -33,11 +33,12 @@ export const environment = {
     "@udistrital/sga-inscripcion-mf": "https://sgainscripcion.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-proyecto-curricular-mf": "https://sgaproyectocurricular.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-tirilla-noticias-mf":"",
-    "@udistrital/sga-plan-docente-mf":"https://sgaplandocente.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/plan-docente-mf":"https://plandocente.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-preinscripciones-mf":"",
     "@udistrital/sga-evaluacion-docente-mf":"https://sgaevaluaciondocente.portaloas.udistrital.edu.co/main.js",
     "@udistrital/formularios-dinamicos-mf":"https://formulariosdinamicos.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/sga-paz-y-salvos-mf": "https://sgapazysalvos.portaloas.udistrital.edu.co/main.js"
-
+    "@udistrital/sga-paz-y-salvos-mf": "https://sgapazysalvos.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/solicitudes-sabaticos-mf": "https://solicitudessabaticos.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/solicitudes-comisiones-estudio-mf": "https://solicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js"
   }
 };  

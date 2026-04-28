@@ -18,7 +18,7 @@ export const environment = {
   },
   parcels: {
     "@udistrital/root-config": "//localhost:4200/udistrital-root-config.js",
-    "@udistrital/core-mf": "//localhost:4201/main.js",
+    "@udistrital/core-mf": "https://pruebascoreclientes.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-datos-mf": "//localhost:4202/main.js",
     "@udistrital/sga-administracion-mf": "//localhost:4211/main.js",
     "@udistrital/sga-espacios-academicos-mf": "//localhost:4212/main.js",
@@ -40,7 +40,6 @@ export const environment = {
     "@udistrital/sga-paz-y-salvos-mf":"//localhost:4221/main.js",
     "@udistrital/solicitudes-sabaticos-mf":"//localhost:4219/main.js",
     "@udistrital/seguimiento-sabaticos-mf":"//localhost:4222/main.js",
+    "@udistrital/solicitudes-comisiones-estudio-mf":"//localhost:4224/main.js",
   }
-
-  
 };
