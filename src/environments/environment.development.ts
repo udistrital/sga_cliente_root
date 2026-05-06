@@ -40,7 +40,9 @@ export const environment = {
     "@udistrital/sga-paz-y-salvos-mf": "https://pruebassgapazysalvos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/solicitudes-sabaticos-mf": "https://pruebassolicitudessabaticos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/seguimiento-sabaticos-mf":"https://pruebasseguimientosabaticos.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/solicitudes-comisiones-estudio-mf": "https://pruebassolicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js"
+    "@udistrital/solicitudes-comisiones-estudio-mf": "https://pruebassolicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/reportes-mf":"https://pruebasreportes.portaloas.udistrital.edu.co/main.js",
+
     
   }
 };

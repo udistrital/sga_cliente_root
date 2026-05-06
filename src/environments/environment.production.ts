@@ -39,6 +39,7 @@ export const environment = {
     "@udistrital/formularios-dinamicos-mf":"https://formulariosdinamicos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-paz-y-salvos-mf": "https://sgapazysalvos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/solicitudes-sabaticos-mf": "https://solicitudessabaticos.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/solicitudes-comisiones-estudio-mf": "https://solicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js"
+    "@udistrital/solicitudes-comisiones-estudio-mf": "https://solicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/reportes-mf":"https://reportes.portaloas.udistrital.edu.co/main.js",
   }
 };  
