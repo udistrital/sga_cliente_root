@@ -41,5 +41,6 @@ export const environment = {
     "@udistrital/solicitudes-sabaticos-mf":"//localhost:4219/main.js",
     "@udistrital/seguimiento-sabaticos-mf":"//localhost:4222/main.js",
     "@udistrital/solicitudes-comisiones-estudio-mf":"//localhost:4224/main.js",
+    "@udistrital/reportes-mf":"//localhost:4226/main.js",
   }
 };
