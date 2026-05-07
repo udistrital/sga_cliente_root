@@ -33,12 +33,13 @@ export const environment = {
     "@udistrital/sga-inscripcion-mf": "https://sgainscripcion.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-proyecto-curricular-mf": "https://sgaproyectocurricular.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-tirilla-noticias-mf":"",
-    "@udistrital/sga-plan-docente-mf":"https://sgaplandocente.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/plan-docente-mf":"https://plandocente.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-preinscripciones-mf":"",
     "@udistrital/sga-evaluacion-docente-mf":"https://sgaevaluaciondocente.portaloas.udistrital.edu.co/main.js",
     "@udistrital/formularios-dinamicos-mf":"https://formulariosdinamicos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/sga-paz-y-salvos-mf": "https://sgapazysalvos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/solicitudes-sabaticos-mf": "https://solicitudessabaticos.portaloas.udistrital.edu.co/main.js",
-    "@udistrital/solicitudes-comisiones-estudio-mf": "https://solicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js"
+    "@udistrital/solicitudes-comisiones-estudio-mf": "https://solicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/reportes-mf":"https://reportes.portaloas.udistrital.edu.co/main.js",
   }
 };  
