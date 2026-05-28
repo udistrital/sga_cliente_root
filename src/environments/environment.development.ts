@@ -41,6 +41,7 @@ export const environment = {
     "@udistrital/solicitudes-sabaticos-mf": "https://pruebassolicitudessabaticos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/seguimiento-sabaticos-mf":"https://pruebasseguimientosabaticos.portaloas.udistrital.edu.co/main.js",
     "@udistrital/solicitudes-comisiones-estudio-mf": "https://pruebassolicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/seguimiento-comisiones-estudio-mf":"https://pruebasseguimientocomisionesestudio.portaloas.udistrital.edu.co/main.js",
     "@udistrital/reportes-mf":"https://pruebasreportes.portaloas.udistrital.edu.co/main.js",
 
     
