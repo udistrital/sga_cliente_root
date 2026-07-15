@@ -10,7 +10,7 @@
     "solicitudes_actualizacion": "Solicitudes de actualización",
     "calendarioacademico": "Calendario académico",
     "list_calendarioacademico": "Listar calendarios académicos",
-    "buscar_calendario_proyecto": "Buscar calendario por proyecto",
+    "buscar_calendario_proyecto": "Consultar calendario por programa académico",
     "Administración Calendario": "Administración Calendario",
     "periodo": "Periodo",
     "lista_periodo": "Lista de periodos",
@@ -99,6 +99,7 @@
     "semaforo": "Semaforo",
     "sabaticos": "Sabáticos",
     "solicitudes_sabaticos": "Solicitudes de sabáticos",
+    "administracion_permisos_eventos": "Administración de permisos de eventos",
 
     "formulario_pagador" : {
       "pagador": {
