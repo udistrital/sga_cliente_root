@@ -9,7 +9,7 @@
     "solicitudes_actualizacion": "Data update requests",
     "calendarioacademico": "Academic calendar",
     "list_calendarioacademico": "List of academic calendars",
-    "buscar_calendario_proyecto": "Search calendar by project",
+    "buscar_calendario_proyecto": "Search calendar by academic program",
     "Administración Calendario": "Calendar management",
     "periodo": "Manage Period",
     "lista_periodo": "Enable / Disable a period",
@@ -98,6 +98,7 @@
     "semaforo": "Status Lights",
     "sabaticos": "Sabbaticals",
     "solicitudes_sabaticos": "Sabbatical requests",
+    "administracion_permisos_eventos": "Event permissions management",
 
     "formulario_pagador": {
       "pagador": {
