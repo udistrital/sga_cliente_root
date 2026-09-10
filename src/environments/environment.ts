@@ -3,7 +3,7 @@ export const environment = {
   entorno: "test",
   autenticacion: true,
   notificaciones: false,
-  menuApps: false,
+  menuApps: true,
   appname: "sga",
   appMenu: "SGA_MF",
   TOKEN: {
@@ -18,7 +18,7 @@ export const environment = {
   },
   parcels: {
     "@udistrital/root-config": "//localhost:4200/udistrital-root-config.js",
-    "@udistrital/core-mf": "https://pruebascoreclientes.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/core-mf": "//localhost:4201/main.js",
     "@udistrital/sga-datos-mf": "//localhost:4202/main.js",
     "@udistrital/sga-administracion-mf": "//localhost:4211/main.js",
     "@udistrital/sga-espacios-academicos-mf": "//localhost:4212/main.js",

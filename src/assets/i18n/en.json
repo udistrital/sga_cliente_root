@@ -146,6 +146,7 @@
         "aceptar": "Accept",
         "cargar": "Load",
         "atencion": "Atention",
+        "error": "Error",
         "operacion_exitosa": "Succeful Operation"
       },
       "ERROR": {
@@ -164,4 +165,3 @@
       }
     }
   }
-  

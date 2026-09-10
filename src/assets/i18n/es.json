@@ -147,6 +147,7 @@
         "cargar": "Cargar",
         "guardar": "Guardar",
         "atencion": "Atención",
+        "error": "Error",
         "operacion_exitosa": "Operacion Exitosa"
       },
       "ERROR": {
@@ -165,4 +166,3 @@
       }
     }
   }
-  
