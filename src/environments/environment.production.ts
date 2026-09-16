@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  entorno: "test",
+  entorno: "prod",
   autenticacion: true,
   notificaciones: false,
   menuApps: false,
@@ -44,4 +44,4 @@ export const environment = {
     "@udistrital/seguimiento-comisiones-estudio-mf":"https://seguimientocomisionesestudio.portaloas.udistrital.edu.co/main.js",
     "@udistrital/reportes-mf":"https://reportes.portaloas.udistrital.edu.co/main.js",
   }
-};  
+};
