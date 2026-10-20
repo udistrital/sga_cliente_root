@@ -43,7 +43,7 @@ export const environment = {
     "@udistrital/solicitudes-comisiones-estudio-mf": "https://pruebassolicitudescomisionesestudio.portaloas.udistrital.edu.co/main.js",
     "@udistrital/seguimiento-comisiones-estudio-mf":"https://pruebasseguimientocomisionesestudio.portaloas.udistrital.edu.co/main.js",
     "@udistrital/reportes-mf":"https://pruebasreportes.portaloas.udistrital.edu.co/main.js",
-
+    "@udistrital/diplomas-mf": "https://pruebasdiplomas.portaloas.udistrital.edu.co/main.js",
     
   }
 };
