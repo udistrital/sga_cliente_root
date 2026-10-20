@@ -43,5 +43,6 @@ export const environment = {
     "@udistrital/solicitudes-comisiones-estudio-mf":"//localhost:4224/main.js",
     "@udistrital/seguimiento-comisiones-estudio-mf":"//localhost:4225/main.js",
     "@udistrital/reportes-mf":"//localhost:4226/main.js",
+    "@udistrital/diplomas-mf": "//localhost:4227/main.js",
   }
 };
