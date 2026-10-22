@@ -6,6 +6,8 @@ import {
 } from "single-spa-layout";
 import microfrontendLayout from "./microfrontend-layout.html";
 import "./assets/styles/index.css";
+import { SharedAssetService } from "./services/shared-asset.service";
+import { StylesheetLoader } from "./utils/stylesheet-loader";
 
 let environment;
 
@@ -33,7 +35,22 @@ const applications = constructApplications({
   },
 });
 const layoutEngine = constructLayoutEngine({ routes, applications });
+const sharedAssetService = new SharedAssetService();
+const stylesheetLoader = new StylesheetLoader();
 
-applications.forEach(registerApplication);
-layoutEngine.activate();
-start();
+async function initializeRoot(): Promise<void> {
+  try {
+    const stylesheetUrl = await sharedAssetService.getUrl("urano-style.css");
+    await stylesheetLoader.load(stylesheetUrl, "shared-urano-styles");
+  } catch (error) {
+    console.error("No fue posible cargar los estilos compartidos", error);
+  }
+
+  applications.forEach(registerApplication);
+  layoutEngine.activate();
+  start();
+}
+
+initializeRoot().catch((error) => {
+  console.error("No fue posible iniciar el root-config", error);
+});
